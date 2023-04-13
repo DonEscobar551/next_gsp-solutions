@@ -1,0 +1,11 @@
+.navigation__container {
+    position: fixed;
+    width: 100%;
+    transition: .3s ease-in;
+    overflow: hidden;
+    height: 56px;
+    background: var(--secondary-color);
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
