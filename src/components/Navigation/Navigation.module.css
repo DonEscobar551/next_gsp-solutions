@@ -1,11 +1,46 @@
-.navigation__container {
+.container {
     position: fixed;
     width: 100%;
     transition: .3s ease-in;
     overflow: hidden;
-    height: 56px;
-    background: var(--secondary-color);
+    height: 96px;
+    background: var(--light-gray);
     top: 0;
     left: 0;
     z-index: 1;
 }
+
+@media (min-width: 760px) {
+    .navbar {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+        width: 1000px;
+        height: 100%;
+    }
+
+    .logo {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        height: 80px;
+        width: 160px;
+        background: url('../../static/images/gsp_logo.png') no-repeat center center/cover;
+    }
+
+    .navigation_item{
+        align-self: center;
+        color: var(--black);
+        text-decoration: none;
+    }
+
+    .navigation_item:hover {
+        border-bottom: 3px solid var(--tertiary-color);
+        text-decoration: none!important;
+    }
+
+    .burger_menu {
+        display: none;
+    }
+}
+

@@ -1,6 +1,29 @@
+'use client';
+
 import styles from './Navigation.module.css'
+import React, {useState} from "react";
+import {FaBars, FaTimes} from "react-icons/fa";
+import Image from "next/image";
+import logo from '../../static/images/gsp_logo.png'
 
-export default function Navigation(){
+export default function Navigation() {
+    const [menuOpen, setMenuOpen] = useState(false)
+    const toggleMenu = () => setMenuOpen(!menuOpen)
 
-    return <div className={styles.navigation__container+' text--default'}>Navigation</div>
+    const closeMenu = () => setMenuOpen(false)
+
+    return (
+        <div className={styles.container + ' text--default'}>
+            <div className={styles.navbar}>
+                <div className={styles.logo}></div>
+                <a href={'#'} className={styles.navigation_item}>Datenschutz</a>
+                <a href={'#'} className={styles.navigation_item}>Unser Team</a>
+                <a href={'#'} className={styles.navigation_item}>FAQ</a>
+                <a href={'#'} className={styles.navigation_item}>Nav 4</a>
+                <div className={styles.burger_menu} onClick={toggleMenu}>
+                    {menuOpen ? (<FaTimes size={30} style={{color: '#ffffff'}}/>)
+                        : (<FaBars size={30} style={{color: '#ffffff'}}/>)}
+                </div>
+            </div>
+        </div>)
 }
