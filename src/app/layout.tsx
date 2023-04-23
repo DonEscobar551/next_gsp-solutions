@@ -1,5 +1,6 @@
 import './globals.css'
-import Navigation from "@/components/Navigation/Navigation";
+import Navigation from '@/components/Navigation/Navigation'
+import React from 'react'
 
 export const metadata = {
     title: 'GSP Solutions',
@@ -15,7 +16,9 @@ export default function RootLayout({
         <html lang="de">
         <body className={'page__background'}>
         <Navigation></Navigation>
-        {children}</body>
+        <div className={'page__container'}>
+            {children}
+        </div></body>
         </html>
     )
 }

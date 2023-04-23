@@ -1,5 +1,4 @@
 import styles from './page.module.css'
-import DSGVO from "@/components/DSGVO/DSGVO";
 
 export default function Page() {
     return <>
@@ -14,7 +13,6 @@ export default function Page() {
                 </div>
             </div>
         </div>
-        <DSGVO></DSGVO>
     </>
 }
 

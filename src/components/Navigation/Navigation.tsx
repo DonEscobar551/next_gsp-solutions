@@ -1,10 +1,8 @@
-'use client';
+'use client'
 
 import styles from './Navigation.module.css'
-import React, {useState} from "react";
-import {FaBars, FaTimes} from "react-icons/fa";
-import Image from "next/image";
-import logo from '../../static/images/gsp_logo.png'
+import React, {useState} from 'react'
+import {FaBars, FaTimes} from 'react-icons/fa'
 
 export default function Navigation() {
     const [menuOpen, setMenuOpen] = useState(false)
@@ -16,7 +14,7 @@ export default function Navigation() {
         <div className={styles.container + ' text--default'}>
             <div className={styles.navbar}>
                 <div className={styles.logo}></div>
-                <a href={'#'} className={styles.navigation_item}>Datenschutz</a>
+                <a href={'/datenschutz'} className={styles.navigation_item}>Datenschutz</a>
                 <a href={'#'} className={styles.navigation_item}>Unser Team</a>
                 <a href={'#'} className={styles.navigation_item}>FAQ</a>
                 <a href={'#'} className={styles.navigation_item}>Nav 4</a>

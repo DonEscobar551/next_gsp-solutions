@@ -1,0 +1,18 @@
+.container {
+    position: relative;
+}
+
+/* Mobile */
+@media (max-width: 759px) {
+
+}
+
+/* Desktop */
+@media (min-width: 760px) {
+    .container {
+        align-self: center;
+        width: 760px;
+        margin: 16px;
+        height: 760px;
+    }
+}
