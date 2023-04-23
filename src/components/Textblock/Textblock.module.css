@@ -1,0 +1,12 @@
+.textblock {
+    padding-top: 8px;
+    padding-bottom: 12px;
+}
+
+.textblock ul > li {
+    padding-bottom: 8px;
+}
+
+.textblock ul > li >ul >li:first-child{
+    padding-top: 8px;
+}

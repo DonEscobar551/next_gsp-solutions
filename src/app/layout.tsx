@@ -18,7 +18,8 @@ export default function RootLayout({
         <Navigation></Navigation>
         <div className={'page__container'}>
             {children}
-        </div></body>
+        </div>
+        </body>
         </html>
     )
 }
