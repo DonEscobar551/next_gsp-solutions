@@ -1,5 +1,11 @@
 .container {
-    position: relative;
+}
+
+.container > img {
+    -webkit-box-shadow: 0px 0px 14px -2px var(--berry);
+    box-shadow: 0px 0px 14px -2px var(--berry);
+    position: unset;
+    border-radius: 48px;
 }
 
 /* Mobile */
@@ -9,10 +15,10 @@
 
 /* Desktop */
 @media (min-width: 760px) {
-    .container {
-        align-self: center;
-        width: 760px;
-        margin: 16px;
-        height: 760px;
+    .container > img {
+        margin: 0 24px;
+        width: 700px;
+        height: 700px;
     }
+
 }
