@@ -2,7 +2,7 @@ import './globals.css'
 import Navigation from '@/components/Navigation/Navigation'
 import React from 'react'
 import Footer from '@/components/Footer/Footer'
-import styles from './page.module.css'
+import styles from './layout.module.css'
 
 export const metadata = {
     title: 'GSP Solutions',

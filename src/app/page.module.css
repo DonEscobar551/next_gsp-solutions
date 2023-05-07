@@ -25,10 +25,7 @@
 }
 
 .page_container {
-    padding-top: 96px;
-    width: 760px;
-    margin-left: auto;
-    margin-right: auto;
+    min-height: calc(100vh - 242px);
 }
 
 .opener {
@@ -48,12 +45,4 @@
 .opener_text {
     padding-top: 16px;
     color: var(--white) !important;
-}
-
-@media (max-width: 759px) {
-    .page_container {
-        width: auto;
-        margin-left: 8px;
-        margin-right: 8px;
-    }
 }
