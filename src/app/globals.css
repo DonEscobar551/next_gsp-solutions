@@ -27,9 +27,15 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-h1, h2, h3{
+h1, h2, h3 {
     margin-block-start: 0;
     margin-block-end: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .text--headline-main {
@@ -40,7 +46,7 @@ h1, h2, h3{
     padding-bottom: 8px;
 }
 
-.text--headline-main-accent  {
+.text--headline-main-accent {
     padding-top: 16px;
     font-size: 36px;
 }
@@ -80,21 +86,8 @@ h1, h2, h3{
     background-color: var(--white);
 }
 
-.page__container {
-    padding-top: 96px;
-    width: 760px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 @media (max-width: 759px) {
     .text--offset {
         padding-left: 12px;
-    }
-
-    .page__container {
-        width: auto;
-        margin-left: 8px;
-        margin-right: 8px;
     }
 }

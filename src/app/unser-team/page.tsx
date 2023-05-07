@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './page.module.css'
 import Textblock from '@/components/Textblock/Textblock'
-import NiceButton from '@/components/NiceButton/NiceButton'
+import MailToButton from '@/components/NiceButton/MailToButton'
 
 export default function Page() {
     return <>
@@ -40,9 +40,7 @@ export default function Page() {
             Falls Sie unsicher sind, ob Sie einen Datenschutzbeauftragten bestellen müssen, ob Ihre
             Website datenschutzkonform ist oder Sie eine grundsätzliche Prüfung benötigen
         </Textblock>
-        <NiceButton label={'Buchen Sie ein unverbindliches, kostenloses Erstgespräch'} onClick={() => {
-            console.log('click')
-        }} type={'button'}></NiceButton>
+        <MailToButton label={'Buchen Sie ein unverbindliches, kostenloses Erstgespräch'}></MailToButton>
 
 
 

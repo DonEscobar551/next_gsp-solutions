@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './page.module.css'
-import NiceButton from '@/components/NiceButton/NiceButton'
+import MailToButton from '@/components/NiceButton/MailToButton'
 import ContentImage from '@/components/ContentImage/ContentImage'
 import signImage from '../../static/images/the_sign.jpg'
 import Textblock from '@/components/Textblock/Textblock'
@@ -166,9 +166,7 @@ export default function Page() {
         </div>
 
         {/** ToDo **/}
-        <NiceButton label={'Jetzt kostenloses Erstgespräch buchen'} onClick={() => {
-            console.log('click')
-        }} type={'button'}></NiceButton>
+        <MailToButton label={'Jetzt kostenloses Erstgespräch buchen'}></MailToButton>
 
 
         <h2 className={'text--headline-main'}>
@@ -200,14 +198,6 @@ export default function Page() {
             mit gesammelten Adressen um? Wie gehe ich mit gekauften Adressen um? Darf ich
             Haushalte einfach anschreiben? Und vieles mehr.
         </Textblock>
-
-
-        <h3 className={'text--headline-secondary'}>
-            ToDo
-        </h3>
-        <Textblock>Hier mehr Text einfügen</Textblock>
-
-
         {/*
         <h2 className={'text--headline-main'}></h2>
         <h3 className={'text--headline-secondary'}></h3>

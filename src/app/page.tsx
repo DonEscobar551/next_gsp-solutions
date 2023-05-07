@@ -4,7 +4,7 @@ export default function Page() {
     return <>
         <div className={styles.image_container}></div>
         <div className={styles.image_glass}></div>
-        <div className={styles.page__container}>
+        <div className={styles.page_container}>
             <div className={styles.opener}>
                 <div className={styles.opener_headline}>
                     GSP Solutions</div>
