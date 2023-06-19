@@ -20,7 +20,7 @@ export default function Navigation() {
             </div>
             <div className={styles.navbar_mobile}>
                 <div className={styles.burger_menu} onClick={toggleMenu}>
-                    {menuOpen ? (<FaTimes size={30} style={{color: '#ffffff'}}/>)
+                    {menuOpen ? (<></>)
                         : (<FaBars size={30} style={{color: '#ffffff'}}/>)}
                 </div>
                 <a href={'/'} className={styles.logo}></a>
@@ -36,6 +36,7 @@ export default function Navigation() {
                         <a href={'/faq'} className={styles.navigation_item}>FAQ</a>
                     </div>
                 </dialog>
+                <div className={styles.navigation_spacer}></div>
             </div>
         </div>)
 }

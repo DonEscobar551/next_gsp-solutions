@@ -72,11 +72,15 @@
         justify-self: center;
         margin: 0 auto;
         align-self: center;
-        width: 160px;
+        width: 150px;
         height: 90px;
         background-image: url('../../static/images/gsp_logo.png');
         background-size: cover;
         background-repeat: no-repeat;
+    }
+
+    .navigation_spacer{
+        width: 14%;
     }
 
     .navbar_mobile dialog[open] {

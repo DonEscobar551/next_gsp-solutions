@@ -27,3 +27,28 @@
         text-decoration: none!important;
     }
 }
+
+
+@media (max-width: 759px) {
+    .content_container{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+        width: 760px;
+        height: 100%;
+    }
+
+    .footer_item{
+        font-size: large;
+        align-self: center;
+        color: var(--black);
+        text-decoration: none;
+    }
+
+    .footer_item:hover{
+        text-decoration: none!important;
+    }
+}
+
+

@@ -162,12 +162,9 @@ export default function Page() {
 
         <div>
             <ContentImage srcFile={signImage} altText={'Ein Zeichen'}></ContentImage>
-        {/*    ToDo mobile*/}
         </div>
 
-        {/** ToDo **/}
         <MailToButton label={'Jetzt kostenloses Erstgespräch buchen'}></MailToButton>
-
 
         <h2 className={'text--headline-main'}>
             Unsere Dienstleistungen im Überblick

@@ -1,4 +1,3 @@
-import styles from './page.module.css'
 import Textblock from '@/components/Textblock/Textblock'
 
 export default function Page() {
@@ -8,10 +7,10 @@ export default function Page() {
         <h2 className={'text--headline-main'}>Angaben gemäß § 5 TMG:</h2>
         <h3 className={'text--headline-secondary'}>Verantwortlich für den Inhalt:</h3>
         <Textblock>
-            GSP-Solutions UG (haftungsbeschränkt)
-            Stolzmühle 33
-            90599 Dietenhofen
-            Germany
+            GSP-Solutions UG (haftungsbeschränkt)<br/>
+            Stolzmühle 33<br/>
+            90599 Dietenhofen<br/>
+            Germany<br/>
         </Textblock>
         <h3 className={'text--headline-secondary'}>Vertreten durch:</h3>
         <Textblock>
@@ -19,19 +18,19 @@ export default function Page() {
         </Textblock>
         <h3 className={'text--headline-secondary'}> Kontakt: </h3>
         <Textblock>
-            Telefon: 09824/ 48 44 240
-            Fax: 09824/ 48 44 239
-            E-Mail: stephan@gspsolutions.de
+            Telefon: 09824/ 48 44 240<br/>
+            Fax: 09824/ 48 44 239<br/>
+            E-Mail: stephan@gspsolutions.de<br/>
         </Textblock>
         <h3 className={'text--headline-secondary'}>Registereintrag:</h3>
         <Textblock>
-            Eintragung im Handelsregister.
-            Registergericht:AG Fürth
+            Eintragung im Handelsregister.<br/>
+            Registergericht: AG Fürth<br/>
             Registernummer: HR B 16292
         </Textblock>
         <h3 className={'text--headline-secondary'}>Umsatzsteuer:</h3>
         <Textblock>
-            Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:
+            Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:<br/>
             DE 306 528 263
         </Textblock>
         <h3 className={'text--headline-secondary'}>Streitschlichtung</h3>

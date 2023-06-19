@@ -6,7 +6,7 @@ export default function Footer({}) {
         <div className={styles.content_container}>
             <div className={styles.footer_item}></div>
             <a href={'/impressum'} className={styles.footer_item}>Impressum</a>
-            <a href={'#'} className={styles.footer_item}>Datenschutzerklärung</a>
+            <a href={'/policy'} className={styles.footer_item}>Datenschutzerklärung</a>
             <div className={styles.footer_item}></div>
         </div>
     </div>
