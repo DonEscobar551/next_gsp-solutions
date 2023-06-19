@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from './page.module.css'
 import Textblock from '@/components/Textblock/Textblock'
 import MailToButton from '@/components/NiceButton/MailToButton'
 

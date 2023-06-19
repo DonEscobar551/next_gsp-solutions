@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from './page.module.css'
 import MailToButton from '@/components/NiceButton/MailToButton'
 import ContentImage from '@/components/ContentImage/ContentImage'
 import signImage from '../../static/images/the_sign.jpg'
@@ -163,6 +162,7 @@ export default function Page() {
 
         <div>
             <ContentImage srcFile={signImage} altText={'Ein Zeichen'}></ContentImage>
+        {/*    ToDo mobile*/}
         </div>
 
         {/** ToDo **/}

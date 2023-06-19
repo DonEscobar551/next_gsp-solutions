@@ -11,13 +11,17 @@
 }
 
 @media (min-width: 760px) {
-    .navbar {
+    .navbar_desktop {
         display: flex;
         margin-left: auto;
         margin-right: auto;
         justify-content: space-between;
         width: 760px;
         height: 100%;
+    }
+
+    .navbar_mobile {
+        display: none;
     }
 
     .logo {
@@ -29,7 +33,7 @@
         background: url('../../static/images/gsp_logo.png') no-repeat center center/cover;
     }
 
-    .navigation_item{
+    .navigation_item {
         align-self: center;
         color: var(--black);
         text-decoration: none;
@@ -37,11 +41,72 @@
 
     .navigation_item:hover {
         border-bottom: 3px solid var(--tertiary-color);
-        text-decoration: none!important;
+        text-decoration: none !important;
     }
 
     .burger_menu {
         display: none;
+    }
+}
+
+@media (max-width: 759px) {
+    .container {
+        overflow: unset;
+    }
+
+    .navbar_desktop {
+        display: none;
+    }
+
+    .navbar_mobile {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .burger_menu {
+        padding-left: 16px;
+        padding-top: 32px;
+    }
+
+    .logo {
+        justify-self: center;
+        margin: 0 auto;
+        align-self: center;
+        width: 160px;
+        height: 90px;
+        background-image: url('../../static/images/gsp_logo.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .navbar_mobile dialog[open] {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        border: unset;
+        height: 100vh;
+        background: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(13px);
+        -webkit-backdrop-filter: blur(13px);
+    }
+
+    .navigation_mobile_list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navigation_mobile_list .burger_menu {
+        padding-top: 8px;
+        padding-left: 0;
+        margin-left: -2px;
+    }
+
+    .navigation_item {
+        padding: 24px 0;
+        width: 90%;
+        text-align: center;
+        text-decoration: none;
+        color: var(--black);
     }
 }
 
