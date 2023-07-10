@@ -25,8 +25,8 @@ export default function Page() {
         <h3 className={'text--headline-secondary'}>Registereintrag:</h3>
         <Textblock>
             Eintragung im Handelsregister.<br/>
-            Registergericht: AG Fürth<br/>
-            Registernummer: HR B 16292
+            Registergericht: AG Ansbach<br/>
+            Registernummer: HR B 7067
         </Textblock>
         <h3 className={'text--headline-secondary'}>Umsatzsteuer:</h3>
         <Textblock>

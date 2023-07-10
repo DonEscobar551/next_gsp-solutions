@@ -15,6 +15,8 @@ export default function Navigation() {
             <div className={styles.navbar_desktop}>
                 <a href={'/'} className={styles.logo}></a>
                 <a href={'/datenschutz'} className={styles.navigation_item}>Datenschutz</a>
+                <a href={'/faq'} className={styles.navigation_item}>Seminare</a>
+                <a href={'/faq'} className={styles.navigation_item}>Business Consulting</a>
                 <a href={'/unser-team'} className={styles.navigation_item}>Unser Team</a>
                 <a href={'/faq'} className={styles.navigation_item}>FAQ</a>
             </div>

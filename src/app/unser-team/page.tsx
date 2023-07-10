@@ -5,7 +5,7 @@ import MailToButton from '@/components/NiceButton/MailToButton'
 export default function Page() {
     return <>
         <h1 className={'text--headline-main text--headline-main-accent'}>
-            Über uns
+            Unser Team
         </h1>
         <h2 className={'text--headline-main'}>
             GSP-Solutions: Ihr Ansprechpartner rund um Datenschutz, Mitarbeiter-Schulungen und Organisationsaufbau
