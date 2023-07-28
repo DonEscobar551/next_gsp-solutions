@@ -2,7 +2,7 @@
 import styles from './NiceButton.module.css'
 import React from 'react'
 
-export default function MailToButton({label}: { label:string }
+export default function MailToButton({label}: { label: string }
 ) {
     return <button className={'text--default ' + styles.niceButton} type={'button'}
                    onClick={() => {
