@@ -34,9 +34,9 @@ export default function Navigation() {
                         <div className={styles.burger_menu} onClick={closeMenu}>
                             <FaTimes size={30} style={{color: '#ffffff'}}/>
                         </div>
-                        <Link href={'/datenschutz'} className={styles.navigation_item}>Datenschutz</Link>
-                        <Link href={'/unser-team'} className={styles.navigation_item}>Unser Team</Link>
-                        <Link href={'/faq'} className={styles.navigation_item}>FAQ</Link>
+                        <Link onClick={closeMenu} href={'/datenschutz'} className={styles.navigation_item}>Datenschutz</Link>
+                        <Link onClick={closeMenu} href={'/unser-team'} className={styles.navigation_item}>Unser Team</Link>
+                        <Link onClick={closeMenu} href={'/faq'} className={styles.navigation_item}>FAQ</Link>
                     </div>
                 </dialog>
                 <div className={styles.navigation_spacer}></div>
