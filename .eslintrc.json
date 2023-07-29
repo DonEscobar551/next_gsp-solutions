@@ -9,6 +9,7 @@
       "warn",
       "never"
     ],
-    "linebreak-style": ["error","unix"]
+    "linebreak-style": ["error","unix"],
+    "@next/next/no-html-link-for-pages": ["error", "pages/"]
   }
 }

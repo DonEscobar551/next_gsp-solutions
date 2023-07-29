@@ -9,6 +9,6 @@ interface IContentImage {
 export default function ContentImage({srcFile, altText}: IContentImage) {
     return (
         <div className={styles.container}>
-            <Image priority={false} src={srcFile} alt={altText}></Image>
+            <Image priority={true} src={srcFile} alt={altText}></Image>
         </div>)
 }
