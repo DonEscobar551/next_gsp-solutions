@@ -14,12 +14,14 @@ export default function Navigation() {
     return (
         <div className={styles.container + ' text--default'}>
             <div className={styles.navbar_desktop}>
-                <Link href={'/'} className={styles.logo}></Link>
-                <Link href={'/datenschutz'} className={styles.navigation_item}>Datenschutz</Link>
-                <Link href={'/faq'} className={styles.navigation_item}>Seminare</Link>
-                <Link href={'/faq'} className={styles.navigation_item}>Business Consulting</Link>
-                <Link href={'/unser-team'} className={styles.navigation_item}>Unser Team</Link>
-                <Link href={'/faq'} className={styles.navigation_item}>FAQ</Link>
+                <Link scroll={false} href={'/'} className={styles.logo}></Link>
+                <Link scroll={false} href={'/datenschutz'} className={styles.navigation_item}>Datenschutzservice</Link>
+                <Link scroll={false} href={'/seminare'} className={styles.navigation_item}>Seminare</Link>
+                <Link scroll={false} href={'/consulting'} className={styles.navigation_item}>Business Consulting</Link>
+                <Link scroll={false} href={'/hinweisgeberschutzgesetz'}
+                      className={styles.navigation_item}>Hinweisgeberschutzgesetz</Link>
+                <Link scroll={false} href={'/unser-team'} className={styles.navigation_item}>Unser Team</Link>
+                <Link scroll={false} href={'/faq'} className={styles.navigation_item}>FAQ</Link>
             </div>
             <div className={styles.navbar_mobile}>
                 <div className={styles.burger_menu} onClick={toggleMenu}>
@@ -34,9 +36,15 @@ export default function Navigation() {
                         <div className={styles.burger_menu} onClick={closeMenu}>
                             <FaTimes size={30} style={{color: '#ffffff'}}/>
                         </div>
-                        <Link onClick={closeMenu} href={'/datenschutz'} className={styles.navigation_item}>Datenschutz</Link>
-                        <Link onClick={closeMenu} href={'/unser-team'} className={styles.navigation_item}>Unser Team</Link>
-                        <Link onClick={closeMenu} href={'/faq'} className={styles.navigation_item}>FAQ</Link>
+                        <Link scroll={false} href={'/datenschutz'}
+                              className={styles.navigation_item}>Datenschutzservice</Link>
+                        <Link scroll={false} href={'/seminare'} className={styles.navigation_item}>Seminare</Link>
+                        <Link scroll={false} href={'/consulting'} className={styles.navigation_item}>Business
+                            Consulting</Link>
+                        <Link scroll={false} href={'/hinweisgeberschutzgesetz'}
+                              className={styles.navigation_item}>Hinweisgeberschutzgesetz</Link>
+                        <Link scroll={false} href={'/unser-team'} className={styles.navigation_item}>Unser Team</Link>
+                        <Link scroll={false} href={'/faq'} className={styles.navigation_item}>FAQ</Link>
                     </div>
                 </dialog>
                 <div className={styles.navigation_spacer}></div>

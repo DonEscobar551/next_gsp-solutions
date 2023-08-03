@@ -84,7 +84,7 @@ export default function Page() {
                 Sind Sie im Gesundheitswesen, im Bereich Finanzdienstleistungen, Versicherungen
                 oder in einer Regierungseinrichtung tätig? </span>
                 Dann verarbeiten Sie mit Sicherheit sogenannte
-                <span className={'text--bold'}>&nbsp;&quot;Sensible Daten&quot;.&nbsp;</span>
+                <span className={'text--bold'}>&nbsp;&quot;sensible Daten&quot;.&nbsp;</span>
                 Dies sind personenbezogene Daten, die den strengsten Schutzregularien
                 unterliegen. Dies betrifft vor allem Gesundheitsdaten, Daten zum Sexualleben, ethnischer
                 Herkunft oder politischen Meinungen. Die Verarbeitung solcher Daten ist nur unter
@@ -195,6 +195,9 @@ export default function Page() {
             mit gesammelten Adressen um? Wie gehe ich mit gekauften Adressen um? Darf ich
             Haushalte einfach anschreiben? Und vieles mehr.
         </Textblock>
+        <h3 className={'text--headline-secondary'}>
+            Erstellen von Verarbeitungsverzeichnissen
+        </h3>
         {/*
         <h2 className={'text--headline-main'}></h2>
         <h3 className={'text--headline-secondary'}></h3>
