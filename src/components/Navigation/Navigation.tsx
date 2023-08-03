@@ -16,8 +16,9 @@ export default function Navigation() {
             <div className={styles.navbar_desktop}>
                 <Link href={'/'} className={styles.logo}></Link>
                 <Link href={'/datenschutz'} className={styles.navigation_item}>Datenschutzservice</Link>
-                <Link href={'/faq'} className={styles.navigation_item}>Seminare</Link>
-                <Link href={'/faq'} className={styles.navigation_item}>Business Consulting</Link>
+                <Link href={'/seminare'} className={styles.navigation_item}>Seminare</Link>
+                <Link href={'/consulting'} className={styles.navigation_item}>Business Consulting</Link>
+                <Link href={'/hinweisgeberschutzgesetz'} className={styles.navigation_item}>Hinweisgeberschutzgesetz</Link>
                 <Link href={'/unser-team'} className={styles.navigation_item}>Unser Team</Link>
                 <Link href={'/faq'} className={styles.navigation_item}>FAQ</Link>
             </div>
@@ -35,6 +36,9 @@ export default function Navigation() {
                             <FaTimes size={30} style={{color: '#ffffff'}}/>
                         </div>
                         <Link href={'/datenschutz'} className={styles.navigation_item}>Datenschutzservice</Link>
+                        <Link href={'/seminare'} className={styles.navigation_item}>Seminare</Link>
+                        <Link href={'/consulting'} className={styles.navigation_item}>Business Consulting</Link>
+                        <Link href={'/hinweisgeberschutzgesetz'} className={styles.navigation_item}>Hinweisgeberschutzgesetz</Link>
                         <Link href={'/unser-team'} className={styles.navigation_item}>Unser Team</Link>
                         <Link href={'/faq'} className={styles.navigation_item}>FAQ</Link>
                     </div>

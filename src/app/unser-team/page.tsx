@@ -18,7 +18,7 @@ export default function Page() {
             Berücksichtigung des Themas Datenschutz. An meiner Seite habe ich ein Team aus fachlich kompetenten
             Mitarbeiterinnen und Mitarbeitern, die jeweils ihre Spezialisierungen haben. In rechtlichen Themen können
             wir bei GSP Solutions außerdem auf ein breites Netzwerk an Anwälten und Richtern zurückgreifen, was
-            besonders im Bereich Datenschutz und als Ihre Meldestelle im Sinne des Hinweisgebergesetzes von großem Wert
+            besonders im Bereich Datenschutz und als Ihre Meldestelle im Sinne des Hinweisgeberschutzgesetzes von großem Wert
             ist.
         </Textblock>
         <Textblock>
