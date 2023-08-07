@@ -18,7 +18,8 @@ export default function Navigation() {
                 <Link href={'/datenschutz'} className={styles.navigation_item}>Datenschutzservice</Link>
                 <Link href={'/seminare'} className={styles.navigation_item}>Seminare</Link>
                 <Link href={'/consulting'} className={styles.navigation_item}>Business Consulting</Link>
-                <Link href={'/hinweisgeberschutzgesetz'} className={styles.navigation_item}>Hinweisgeberschutzgesetz</Link>
+                <Link href={'/hinweisgeberschutzgesetz'}
+                      className={styles.navigation_item}>Hinweisgeberschutzgesetz</Link>
                 <Link href={'/unser-team'} className={styles.navigation_item}>Unser Team</Link>
                 <Link href={'/faq'} className={styles.navigation_item}>FAQ</Link>
             </div>
@@ -31,14 +32,15 @@ export default function Navigation() {
                 <dialog
                     open={menuOpen}
                 >
-                    <div className={styles.navigation_mobile_list}>
-                        <div className={styles.burger_menu} onClick={closeMenu}>
+                    <div className={styles.navigation_mobile_list} onClick={closeMenu}>
+                        <div className={styles.burger_menu}>
                             <FaTimes size={30} style={{color: '#ffffff'}}/>
                         </div>
                         <Link href={'/datenschutz'} className={styles.navigation_item}>Datenschutzservice</Link>
                         <Link href={'/seminare'} className={styles.navigation_item}>Seminare</Link>
                         <Link href={'/consulting'} className={styles.navigation_item}>Business Consulting</Link>
-                        <Link href={'/hinweisgeberschutzgesetz'} className={styles.navigation_item}>Hinweisgeberschutzgesetz</Link>
+                        <Link href={'/hinweisgeberschutzgesetz'}
+                              className={styles.navigation_item}>Hinweisgeberschutzgesetz</Link>
                         <Link href={'/unser-team'} className={styles.navigation_item}>Unser Team</Link>
                         <Link href={'/faq'} className={styles.navigation_item}>FAQ</Link>
                     </div>

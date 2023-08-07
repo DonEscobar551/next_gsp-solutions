@@ -29,6 +29,6 @@ export default function Page() {
             Auch hier möchten wir mit Klarheit überzeugen und beraten Sie gerne über die Möglichkeiten für Ihren Betrieb
             bezüglich der optimalen Umsetzung.
         </Textblock>
-        <MailToButton label={'Buchen Sie ein kostenloses Erstgespräch'}></MailToButton>
+        <MailToButton label={'Jetzt kostenloses Erstgespräch buchen'}></MailToButton>
     </>
 }

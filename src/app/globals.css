@@ -44,6 +44,8 @@ body {
     font-size: 32px;
     padding-top: 24px;
     padding-bottom: 8px;
+    /*text-overflow: ellipsis;*/
+    word-break: break-word;
 }
 
 .text--headline-main-accent {

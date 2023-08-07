@@ -9,7 +9,7 @@ export default function Page() {
         </h1>
         <h2 className={'text--headline-main'}>
             GSP-Solutions: Ihr Ansprechpartner rund um Datenschutz, Mitarbeiter-Schulungen und Organisationsaufbau und
-            das Hinweisgeberschutzgesetz/Whistle Blower Protection Law
+            das Hinweisgeberschutzgesetz / Whistle Blower Protection Law
         </h2>
         <Textblock>
             Mein Name ist Stephan Mederski, ich bin Inhaber von GSP Solutions, zertifizierter Datenschutzbeauftragter,
@@ -42,7 +42,7 @@ export default function Page() {
             datenschutzkonform ist, ob Sie eine grundsätzliche Prüfung benötigen oder ob das Hinweisgeberschutzgesetz
             auf Sie zutrifft:
         </Textblock>
-        <MailToButton label={'Buchen Sie ein unverbindliches, kostenloses Erstgespräch'}></MailToButton>
+        <MailToButton label={'Jetzt kostenloses Erstgespräch buchen'}></MailToButton>
 
 
         {/*    <h2 className={'text--headline-main'}></h2>*/}

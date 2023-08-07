@@ -16,6 +16,8 @@
     color: var(--white);
 
     transition: background-color .3s, color .3s;
+
+    text-align: unset;
 }
 
 .niceButton:hover, .niceButton:focus {
